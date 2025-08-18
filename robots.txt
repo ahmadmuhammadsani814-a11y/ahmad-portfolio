@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://ahmadmuhammadsani814-a11y.github.io/ahmad-portfolio/sitemap.xml
-
+Sitemap: https://YOUR_DOMAIN_HERE/sitemap.xml

@@ -1,88 +1,274 @@
-<!DOCTYPE html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ahmad Muhammad Sani | Portfolio</title>
-  <meta name="title" content="Ahmad Muhammad Sani | Professional Content Writer & Translator">
-  <meta name="description" content="Hire Ahmad Muhammad Sani, a skilled writer and translator fluent in English, Arabic, and Hausa. Offering content writing, translation, and virtual assistance services.">
-  <meta name="keywords" content="Ahmad Muhammad Sani, content writer, translator, English Arabic Hausa, remote writer, virtual assistant, hire writer, freelance translator">
-  <meta name="author" content="Ahmad Muhammad Sani">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ahmadmuhammadsani814-a11y.github.io/ahmad-portfolio/">
-  <meta property="og:title" content="Ahmad Muhammad Sani | Professional Content Writer & Translator">
-  <meta property="og:description" content="Hire Ahmad Muhammad Sani for content writing, translation (English, Arabic, Hausa), and virtual assistance.">
-  <meta property="og:image" content="banner.png">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahmad Muhammad Sani — Remote Freelance Nutrition & Content Specialist</title>
+
+  <!-- Primary SEO meta -->
+  <meta name="description" content="Ahmad Muhammad Sani — Remote freelance writer & nutrition content specialist. Evidence-based MNT content, telehealth resources, SEO copy that ranks and converts." />
+  <meta name="keywords" content="nutrition content writer, medical nutrition therapy writer, remote dietitian writer, telehealth nutrition content, health copywriter, SEO nutrition writer, Hausa English writer" />
+  <meta name="author" content="Ahmad Muhammad Sani" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Hire Ahmad — Nutrition & Content Specialist" />
+  <meta property="og:description" content="Evidence-based MNT content, telehealth resources, and SEO-driven writing. Available for remote hire." />
+  <meta property="og:url" content="https://C:\Users\PC\Downloads\ahmad-portfolio-site\blog/" />
+  <meta property="og:image" content="https://C:\Users\PC\Downloads\ahmad-portfolio-site\assets/assets/og-banner.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Hire Ahmad — Nutrition & Content Specialist" />
+  <meta name="twitter:description" content="Evidence-based MNT content, telehealth resources, and SEO-driven writing." />
+  <meta name="twitter:image" content="https://YOUR_DOMAIN_HERE/assets/og-banner.png" />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://YOUR_DOMAIN_HERE/" />
+
+  <!-- JSON-LD (Person & WebSite) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ahmad Muhammad Sani",
+    "url": "https://YOUR_DOMAIN_HERE/",
+    "sameAs": ["https://www.linkedin.com/in/ahmad-muhammad-sani-74973137a"],
+    "jobTitle": "Remote Freelance Nutrition & Content Specialist",
+    "email": "mailto:ahmadmuhammadsani814@gmail.com",
+    "knowsLanguage": ["en","ha"]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "url":"https://YOUR_DOMAIN_HERE/",
+    "name":"Ahmad Muhammad Sani Portfolio",
+    "potentialAction":{"@type":"SearchAction","target":"https://YOUR_DOMAIN_HERE/?q={search_term_string}","query-input":"required name=search_term_string"}
+  }
+  </script>
+
   <style>
-    * {margin: 0; padding: 0; box-sizing: border-box;}
-    body {font-family: 'Poppins', sans-serif;background: linear-gradient(135deg, #0a0f1f, #1a1f2f);color: #fff;overflow-x: hidden;}
-    header {text-align: center;padding: 50px 20px;position: relative;}
-    header h1 {font-size: 3rem;animation: fadeInDown 1.5s ease;}
-    header p {font-size: 1.2rem;color: #aaa;margin-top: 10px;animation: fadeInUp 2s ease;}
-    nav {margin: 30px 0;display: flex;justify-content: center;gap: 30px;}
-    nav a {text-decoration: none;color: #0ef;font-weight: 500;transition: 0.3s;}
-    nav a:hover {color: #fff;}
-    section {padding: 60px 20px;max-width: 900px;margin: auto;text-align: center;}
-    section h2 {font-size: 2rem;margin-bottom: 20px;color: #0ef;position: relative;animation: fadeIn 2s ease;}
-    section p {font-size: 1.1rem;line-height: 1.6;animation: fadeIn 2.5s ease;}
-    .skills {display: flex;flex-wrap: wrap;justify-content: center;gap: 15px;margin-top: 20px;}
-    .skill {background: #111a2d;padding: 12px 25px;border-radius: 25px;border: 1px solid #0ef;color: #0ef;transition: transform 0.3s ease;animation: float 4s infinite ease-in-out;}
-    .skill:hover {transform: scale(1.1);}
-    .contact-links a {display: inline-block;margin: 15px;font-size: 1.5rem;color: #0ef;transition: transform 0.3s;}
-    .contact-links a:hover {transform: scale(1.2);color: #fff;}
-    footer {text-align: center;padding: 20px;font-size: 0.9rem;color: #777;}
-    .background {position: fixed;width: 100%;height: 100%;z-index: -1;top: 0;left: 0;overflow: hidden;}
-    .circle {position: absolute;border-radius: 50%;background: rgba(0, 238, 255, 0.2);animation: move 15s infinite linear;}
-    @keyframes move {from { transform: translateY(100vh);} to { transform: translateY(-10vh);} }
-    @keyframes fadeInDown {from{opacity:0;transform:translateY(-20px);} to{opacity:1;transform:translateY(0);} }
-    @keyframes fadeInUp {from{opacity:0;transform:translateY(20px);} to{opacity:1;transform:translateY(0);} }
-    @keyframes fadeIn {from{opacity:0;} to{opacity:1;} }
-    @keyframes float {0%,100% { transform: translateY(0);} 50% { transform: translateY(-10px);} }
+    :root{
+      --bg:#09101a; --card:#0f1720; --muted:#9aa8b6; --accent:#6EE7B7; --accent2:#7DD3FC;
+      --glass: rgba(255,255,255,0.04); --glass-2: rgba(255,255,255,0.02);
+      --max-width:1100px; --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, monospace;
+      --sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box} html,body{height:100%} body{
+      margin:0;background: radial-gradient(1200px 600px at 10% 10%, rgba(125,211,252,0.04), transparent 6%),
+                  radial-gradient(900px 500px at 90% 90%, rgba(110,231,183,0.03), transparent 6%), var(--bg);
+      color:#e6f0f3;font-family:var(--sans);line-height:1.5;overflow-y:scroll;
+    }
+    a{color:var(--accent2);text-decoration:none}
+    header{
+      position:fixed;top:16px;left:50%;transform:translateX(-50%);
+      width:calc(100% - 32px);max-width:var(--max-width);display:flex;align-items:center;justify-content:space-between;
+      gap:12px;z-index:60;padding:8px 14px;background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border-radius:12px;box-shadow: 0 6px 24px rgba(2,6,23,0.6);backdrop-filter: blur(6px) saturate(120%);
+    }
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand .logo{width:44px;height:44px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent2));
+      display:flex;align-items:center;justify-content:center;font-weight:700;color:#052226;box-shadow:0 6px 18px rgba(0,0,0,0.6), inset 0 -6px 10px rgba(255,255,255,0.05);font-family:var(--mono);font-size:16px}
+    nav{display:flex;gap:18px;align-items:center} nav a{padding:10px;border-radius:8px;font-weight:600;color:var(--muted)}
+    nav a:hover{color:white;background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
+
+    main{margin:120px auto 80px;max-width:var(--max-width);padding:32px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center}
+    @media (max-width:900px){.hero{grid-template-columns:1fr; padding-bottom:18px} header{padding:8px}}
+    .hero-card{background:linear-gradient(180deg,var(--glass),var(--glass-2));border-radius:16px;padding:36px;position:relative;overflow:hidden;
+      box-shadow: 0 10px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .hero h1{font-size:28px;margin:0 0 8px} .hero p.lead{margin:0 0 18px;color:var(--muted);font-size:16px}
+    .badges{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:18px} .badge{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.02);font-weight:700;color:var(--accent);border:1px solid rgba(110,231,183,0.06)}
+    .cta-row{display:flex;gap:12px;align-items:center} .btn{display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:12px;font-weight:700;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#012524;border:none;cursor:pointer;box-shadow:0 8px 30px rgba(110,231,183,0.06)}
+    .btn.secondary{background:transparent;color:var(--accent2);border:1px solid rgba(125,211,252,0.08)} .micro{font-size:13px;color:var(--muted);display:block;margin-top:8px}
+    .panel{height:420px;border-radius:16px;overflow:hidden;position:relative;background:linear-gradient(180deg,#051015, #06151b);border:1px solid rgba(255,255,255,0.03)}
+    #visual-canvas{position:absolute;inset:0;width:100%;height:100%;display:block} .panel-content{position:absolute;left:20px;bottom:20px;color:#cfeee7;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:14px;border-radius:12px;backdrop-filter: blur(4px);}
+    section{margin-top:48px} .section-title{display:flex;align-items:center;gap:12px;margin-bottom:18px} .section-title h2{margin:0;font-size:20px}
+    .grid{display:grid;gap:18px} .two-col{grid-template-columns:1fr 360px} @media(max-width:900px){.two-col{grid-template-columns:1fr}}
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:18px;border-radius:12px;border:1px solid rgba(255,255,255,0.02)}
+    .skills{display:flex;flex-wrap:wrap;gap:10px} .skill{background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:999px;font-weight:700;color:var(--muted);border:1px solid rgba(255,255,255,0.02)}
+    .portfolio-grid{grid-template-columns:repeat(3,1fr)} @media(max-width:1000px){.portfolio-grid{grid-template-columns:repeat(2,1fr)}} @media(max-width:600px){.portfolio-grid{grid-template-columns:1fr}}
+    .project{height:160px;border-radius:10px;overflow:hidden;position:relative;background:linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));border:1px solid rgba(255,255,255,0.02);display:flex;align-items:flex-end}
+    .project h3{margin:12px;color:white;font-size:16px} form{display:flex;flex-direction:column;gap:10px} input,textarea{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:12px;border-radius:10px;color:#e6f0f3}
+    textarea{min-height:120px;resize:vertical} .muted{color:var(--muted);font-size:13px} footer{margin-top:48px;padding:24px;border-radius:12px;background:linear-gradient(180deg,var(--glass),transparent);display:flex;justify-content:space-between;align-items:center}
+    .socials{display:flex;gap:12px;align-items:center} .pill{padding:8px 12px;border-radius:999px;background:rgba(255,255,255,0.02);font-weight:700;color:var(--muted)}
+    .reveal{opacity:0;transform:translateY(20px);transition: all 700ms cubic-bezier(.2,.9,.2,1)} .reveal.in{opacity:1;transform:none} .muted-sm{color:var(--muted);font-size:13px}
   </style>
 </head>
 <body>
-  <div class="background">
-    <div class="circle" style="width:100px;height:100px;left:20%;animation-duration:18s;"></div>
-    <div class="circle" style="width:60px;height:60px;left:50%;animation-duration:22s;"></div>
-    <div class="circle" style="width:80px;height:80px;left:80%;animation-duration:25s;"></div>
-  </div>
-  <header>
-    <h1>Ahmad Muhammad Sani</h1>
-    <p>Content Writer • Translator • Virtual Assistant</p>
-    <nav>
+  <header role="banner" aria-label="Main header">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">AMS</div>
+      <div style="display:flex;flex-direction:column;line-height:1">
+        <strong style="font-size:14px">Ahmad Muhammad Sani</strong>
+        <span class="muted-sm">Nutrition & Content Specialist — Remote</span>
+      </div>
+    </div>
+    <nav role="navigation" aria-label="Primary navigation">
+      <a href="#home">Home</a>
       <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#contact">Contact</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="https://YOUR_DOMAIN_HERE/blog/" target="_self">Blog</a>
+      <a href="#contact" class="pill">Contact</a>
+      <a href="https://www.linkedin.com/in/ahmad-muhammad-sani-74973137a" target="_blank" rel="noopener" aria-label="LinkedIn profile">LinkedIn</a>
     </nav>
   </header>
-  <section id="about">
-    <h2>About Me</h2>
-    <p>I am Ahmad Muhammad Sani, a passionate writer and translator fluent in English, Arabic, and Hausa. I help businesses and individuals by creating high-quality content, translating documents accurately, and providing reliable virtual assistance services. My mission is to deliver excellence and build trust with every client I work with.</p>
-  </section>
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills">
-      <div class="skill">Content Writing</div>
-      <div class="skill">Translation (English ↔ Arabic ↔ Hausa)</div>
-      <div class="skill">Copywriting</div>
-      <div class="skill">Virtual Assistance</div>
-      <div class="skill">SEO Optimization</div>
-      <div class="skill">Research & Editing</div>
+
+  <main id="home" role="main">
+    <div class="hero">
+      <div class="hero-card reveal" data-delay="100">
+        <h1>Hi — I'm <span style="color:var(--accent)">Ahmad Muhammad Sani</span></h1>
+        <p class="lead">Remote freelance nutrition & content specialist. I write evidence-based medical nutrition therapy (MNT) content, telehealth resources, SEO-driven blog posts and clinical patient education that converts and retains clients.</p>
+        <div class="badges">
+          <span class="badge">MNT content</span><span class="badge">SEO health writer</span><span class="badge">Telehealth resources</span><span class="badge">Freelance & remote</span>
+        </div>
+        <div class="cta-row">
+          <a class="btn" href="#contact">Hire me — Let's talk</a>
+          <a class="btn secondary" href="assets/ahmad-cv.pdf" download="Ahmad-Muhammad-Sani-CV.pdf">Download CV</a>
+
+        </div>
+        <span class="micro">Available for remote contract work — flexible hours, fast turnarounds.</span>
+      </div>
+
+      <div class="panel reveal" data-delay="200" aria-hidden="true">
+        <canvas id="visual-canvas" width="720" height="420"></canvas>
+        <div class="panel-content">
+          <strong>Featured:</strong>
+          <div class="muted-sm">Evidence-based MNT templates • Telehealth charts • SEO content plans</div>
+        </div>
+      </div>
     </div>
-  </section>
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact-links">
-      <a href="mailto:your-email@example.com"><i class="fas fa-envelope"></i></a>
-      <a href="https://wa.me/2348039244979" target="_blank"><i class="fab fa-whatsapp"></i></a>
-      <a href="https://www.linkedin.com/in/ahmad-muhammad-sani-74973137a" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/ahmadmuhammadsani814-a11y" target="_blank"><i class="fab fa-github"></i></a>
-    </div>
-  </section>
-  <footer>
-    <p>© 2025 Ahmad Muhammad Sani | All Rights Reserved</p>
-  </footer>
+
+    <section id="about" class="reveal" data-delay="100">
+      <div class="section-title"><h2>About</h2></div>
+      <div class="two-col grid">
+        <div class="card">
+          <h3>Who I am</h3>
+          <p class="muted">I combine clinical nutrition knowledge with proven content strategy. My writing helps clinics, telehealth platforms and health brands convert readers into patients and paying clients through clear, empathetic, and scientifically accurate content.</p>
+          <p class="muted">I deliver: patient-facing MNT materials, SEO blog series, clinician toolkits, product descriptions for nutrition products, and remote coaching content.</p>
+          <ul class="muted-sm">
+            <li>Clinical grounding — evidence-first approach</li>
+            <li>SEO-aware — high-converting health content</li>
+            <li>Telehealth-ready — charting & patient education</li>
+          </ul>
+        </div>
+        <aside class="card">
+          <h3>Skills</h3>
+          <div class="skills" aria-hidden="false">
+            <span class="skill">Medical Nutrition Therapy (MNT)</span><span class="skill">Nutrition Education</span><span class="skill">SEO Content Writing</span><span class="skill">Clinical Copywriting</span><span class="skill">Patient Handouts</span><span class="skill">Telehealth Resources</span><span class="skill">Content Strategy</span><span class="skill">Blogging & Articles</span><span class="skill">EHR Charting Templates</span><span class="skill">Client Retention Materials</span><span class="skill">Social Media Nutrition Posts</span><span class="skill">Evidence Synthesis</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="services" class="reveal" data-delay="120">
+      <div class="section-title"><h2>Services</h2></div>
+      <div class="grid">
+        <div class="card">
+          <h3>What I offer</h3>
+          <ul class="muted-sm">
+            <li><strong>MNT Content Packages:</strong> Full patient education modules, meal plans, and protocols.</li>
+            <li><strong>SEO Blog Series:</strong> Multi-post content plans targeting high-intent keywords.</li>
+            <li><strong>Telehealth Templates:</strong> Intake forms, progress trackers, and clinician notes.</li>
+            <li><strong>Copy for Nutrition Products:</strong> Supplement descriptions, landing pages, emails.</li>
+            <li><strong>Retainer Work:</strong> Monthly content + performance reporting.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="reveal" data-delay="140">
+      <div class="section-title"><h2>Portfolio</h2></div>
+      <div class="card portfolio-grid grid">
+        <div class="project"><h3>Clinical MNT handout — Type 2 Diabetes</h3></div>
+        <div class="project"><h3>SEO blog series — Weight Management</h3></div>
+        <div class="project"><h3>Telehealth intake + follow-up templates</h3></div>
+        <div class="project"><h3>Client onboarding email sequence</h3></div>
+        <div class="project"><h3>Product page copy — Supplement</h3></div>
+        <div class="project"><h3>Case study — Patient retention</h3></div>
+      </div>
+    </section>
+
+    <section id="contact" class="reveal" data-delay="180">
+      <div class="section-title"><h2>Contact</h2></div>
+      <div class="two-col grid">
+        <div class="card">
+          <h3>Let's work together</h3>
+          <p class="muted">Send a short message — I usually reply within 24 hours. Include project summary and timeline.</p>
+
+          <!-- Netlify Forms integration -->
+          <form id="contact-form" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact">
+            <p class="muted-sm" hidden>
+              <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+            </p>
+            <label class="muted-sm">Full name
+              <input type="text" name="name" required placeholder="Your name" />
+            </label>
+            <label class="muted-sm">Email
+              <input type="email" name="email" required placeholder="you@example.com" />
+            </label>
+            <label class="muted-sm">Project / Message
+              <textarea name="message" required placeholder="Short project description, budget, timeline"></textarea>
+            </label>
+            <button type="submit" class="btn">Send message</button>
+            <div id="form-result" class="muted-sm" aria-live="polite" style="margin-top:10px"></div>
+          </form>
+
+          <div style="margin-top:12px" class="muted-sm">
+            Email: <a href="mailto:ahmadmuhammadsani814@gmail.com">ahmadmuhammadsani814@gmail.com</a><br/>
+            LinkedIn: <a href="https://www.linkedin.com/in/ahmad-muhammad-sani-74973137a" target="_blank" rel="noopener">Profile</a>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>Availability</h3>
+          <p class="muted">Minimum 32 hours/week. Flexible schedule. Open to both short-term projects and monthly retainers.</p>
+          <h4 style="margin-top:12px">Rates</h4>
+          <p class="muted">Competitive rates — contact for a custom quote. (Hourly or project-based)</p>
+          <div style="margin-top:16px">
+            <a class="btn secondary" href="#portfolio">View work</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <strong>© <span id="year"></span> Ahmad Muhammad Sani</strong>
+        <div class="muted-sm">Remote freelance nutrition & content specialist</div>
+      </div>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/ahmad-muhammad-sani-74973137a" target="_blank" rel="noopener" class="muted-sm">LinkedIn</a>
+        <span class="pill">Available for hire</span>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // Reveal on scroll
+    (function(){const r=document.querySelectorAll('.reveal');const o=new IntersectionObserver(e=>e.forEach(t=>{if(t.isIntersecting){t.target.classList.add('in');o.unobserve(t.target);}}),{threshold:.12});r.forEach(e=>o.observe(e));})();
+
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Canvas visual: particles + lightning
+    (function(){
+      const canvas=document.getElementById('visual-canvas');const ctx=canvas.getContext('2d');
+      let w=canvas.width=canvas.clientWidth||720;let h=canvas.height=canvas.clientHeight||420;
+      const DPR=Math.max(window.devicePixelRatio||1,1);canvas.width=w*DPR;canvas.height=h*DPR;canvas.style.width=w+'px';canvas.style.height=h+'px';ctx.scale(DPR,DPR);
+      const P=[];for(let i=0;i<34;i++) P.push({x:Math.random()*w,y:Math.random()*h,r:1+Math.random()*3,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3});
+      let L={active:false,x:0,y:0,t:0};function spawn(){L.active=true;L.x=Math.random()*w;L.y=Math.random()*h*.6;L.t=0;}
+      function draw(){ctx.clearRect(0,0,w,h);P.forEach(p=>{p.x+=p.vx;p.y+=p.vy;if(p.x<0)p.x=w;if(p.x>w)p.x=0;if(p.y<0)p.y=h;if(p.y>h)p.y=0;ctx.beginPath();ctx.globalAlpha=.8;ctx.fillStyle='rgba(190,230,220,.9)';ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();});ctx.globalAlpha=1;
+        for(let i=0;i<9;i++){const a=P[Math.floor(Math.random()*P.length)],b=P[Math.floor(Math.random()*P.length)];ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.quadraticCurveTo((a.x+b.x)/2+(Math.random()-.5)*40,(a.y+b.y)/2+(Math.random()-.5)*20,b.x,b.y);ctx.strokeStyle='rgba(125,211,252,.03)';ctx.lineWidth=1;ctx.stroke();}
+        if(!L.active&&Math.random()<.01) spawn(); if(L.active){L.t+=1;const alpha=Math.max(0,1-L.t/20);ctx.globalCompositeOperation='lighter';for(let i=0;i<6;i++){ctx.beginPath();const x=L.x+(Math.random()-.5)*80*(1-L.t/20);ctx.moveTo(x,0);let sx=x,sy=0;for(let s=0;s<8;s++){const nx=sx+(Math.random()-.5)*40;const ny=sy+h/8+(Math.random()-.5)*20;ctx.lineTo(nx,ny);sx=nx;sy=ny;}ctx.strokeStyle='rgba(125,211,252,'+(0.08*alpha)+')';ctx.lineWidth=(1+i/2)*alpha;ctx.stroke();}ctx.globalCompositeOperation='source-over';if(L.t>22)L.active=false;}
+        requestAnimationFrame(draw);}
+      draw(); window.addEventListener('resize',()=>{w=canvas.clientWidth||720;h=canvas.clientHeight||420;canvas.width=w*DPR;canvas.height=h*DPR;canvas.style.width=w+'px';canvas.style.height=h+'px';ctx.scale(DPR,DPR);});
+    })();
+  </script>
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 </body>
 </html>
